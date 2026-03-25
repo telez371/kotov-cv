@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "stack": "Teknoloji",
+    "experience": "Deneyim",
+    "achievements": "Başarılar",
+    "cases": "Vaka Çalışmaları",
+    "hobbies": "Hobiler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "İşe Açık",
+    "name": "Alexander Kotov",
+    "title": "Senior QA Automation Engineer / SDET",
+    "subtitle": "Python",
+    "tagline": "Akıllı test otomasyonu ile sağlam yazılımlar inşa ediyorum. 6+ yıl boyunca karmaşık sistemleri güvenilir, test edilmiş ürünlere dönüştürüyorum.",
+    "cta_experience": "Deneyimi Gör",
+    "cta_contact": "İletişim",
+    "cta_cv": "CV İndir"
+  },
+  "about": {
+    "heading": "Hakkımda",
+    "p1": "Karmaşık dağıtık sistemler için kapsamlı test otomasyon stratejileri tasarlama ve uygulama konusunda 6+ yıllık deneyime sahip Senior QA Automation Engineer'im.",
+    "p2": "Mikroservis mimarisi testi, API otomasyonu ve hataları production'a ulaşmadan yakalayan CI/CD pipeline'ları oluşturma konusunda uzmanlaşıyorum.",
+    "p3": "Sadece test yazmıyorum — ürününüzle birlikte ölçeklenen test ekosistemleri tasarlıyorum. Sıfırdan framework oluşturmaktan legacy sistemleri taşımaya kadar, kod kalitesi ve ekip hızında ölçülebilir iyileştirmeler sağlıyorum.",
+    "highlights": {
+      "years": "6+",
+      "years_label": "Yıl Deneyim",
+      "frameworks": "3",
+      "frameworks_label": "Framework Oluşturuldu",
+      "reduction": "60%",
+      "reduction_label": "Manuel QA Azaltıldı",
+      "companies": "4",
+      "companies_label": "Şirket"
+    }
+  },
+  "stack": {
+    "heading": "Teknoloji Yığını",
+    "subtitle": "Sağlam test otomasyon sistemleri oluşturmak için kullandığım araç ve teknolojiler.",
+    "categories": {
+      "languages": "Diller ve Framework'ler",
+      "testing": "Test Araçları",
+      "infrastructure": "Altyapı ve CI/CD",
+      "databases": "Veritabanları ve Mesajlaşma",
+      "monitoring": "İzleme ve Raporlama"
+    }
+  },
+  "experience": {
+    "heading": "Deneyim",
+    "subtitle": "Uluslararası ekiplerde test otomasyonu oluşturma ve ölçeklendirme geçmişi.",
+    "present": "Devam ediyor",
+    "jobs": [
+      {
+        "company": "BetaTransfer",
+        "location": "Almatı, Kazakistan",
+        "role": "QA Automation Engineer (Python)",
+        "period": "Mart 2025 — Devam ediyor",
+        "description": "Fintech platformu için mikroservis testi",
+        "achievements": [
+          "gRPC desteğini test framework'üne entegre ederek servis kapsamını %40 genişletti",
+          "RabbitMQ kuyrukları, worker'lar ve PostgreSQL üzerinden async workflow testini otomatikleştirdi",
+          "Varlık ilişkileri ve durum geçişlerini doğrulayan kapsamlı veri doğrulama testleri oluşturdu",
+          "Detaylı loglarla Allure raporlama uygulayarak hata ayıklama süresini %50 azalttı",
+          "CI/CD pipeline'larında tutarlı test yürütme için Docker ortamlarını sürdürdü"
+        ],
+        "tech": ["Python", "Pytest", "gRPC", "RabbitMQ", "PostgreSQL", "Docker", "GitLab CI/CD", "Allure"]
+      },
+      {
+        "company": "Truely.com",
+        "location": "Singapur (Uzaktan)",
+        "role": "QA Automation Engineer (Python)",
+        "period": "Haz 2022 — Şub 2025",
+        "description": "Global eSIM platformu için tam test otomasyonu",
+        "achievements": [
+          "Python ve Elixir backend'leri için eksiksiz test otomasyon sistemi tasarladı",
+          "Backend yeniden yazımı sırasında Selenium'dan Playwright'a E2E test geçişini yönetti",
+          "Backend'ler arası veri tutarlılığını doğrulayan API yanıt karşılaştırma aracı oluşturdu",
+          "AI destekli çeviri dahil 5 Directus CMS uygulaması geliştirdi",
+          "GitHub Actions'ta sıfırdan CI/CD pipeline'ları tasarladı",
+          "Datadog + Slack izleme entegrasyonu oluşturarak olay yanıt süresini %70 azalttı",
+          "Başarısız testler için Linear'da otomatik görev oluşturma geliştirdi"
+        ],
+        "tech": ["Python", "Elixir", "Playwright", "Pytest", "GraphQL", "Docker", "GitHub Actions", "Datadog", "BrowserStack"]
+      },
+      {
+        "company": "360rent.club",
+        "location": "Türkiye",
+        "role": "QA Automation Engineer",
+        "period": "Mart 2020 — Nis 2022",
+        "description": "Gayrimenkul kiralama platformu için test otomasyonu",
+        "achievements": [
+          "Kapsamlı UI test otomasyonu ile manuel regresyon testini %60 azalttı",
+          "Paralel test yürütme uygulayarak test paketi çalışma süresini 3 kat kısalttı",
+          "Selenium locator'larını optimize ederek hatalı test oranını %80 düşürdü",
+          "Test paketini Docker container'larına GitHub Actions CI/CD ile entegre etti"
+        ],
+        "tech": ["Python", "Pytest", "Selenium", "Docker", "GitHub Actions", "Allure", "Faker"]
+      },
+      {
+        "company": "Djangoheads",
+        "location": "Portekiz (Uzaktan)",
+        "role": "QA Automation Engineer (Python)",
+        "period": "Haz 2020 — Oca 2022",
+        "description": "Veri dönüştürme servisi için sıfırdan test framework'ü oluşturma",
+        "achievements": [
+          "Veri dönüştürme servisi için sıfırdan Python test framework'ü tasarladı ve oluşturdu",
+          "Pydantic doğrulama ile API testi uygulayarak sıkı veri sözleşmesi uyumluluğu sağladı",
+          "Pytest ile ölçeklenebilir test mimarisi ve kapsamlı Allure raporlama oluşturdu",
+          "Docker ile test ortamını konteynerleştirerek tutarlı CI/CD yürütme sağladı"
+        ],
+        "tech": ["Python", "Pytest", "Requests", "Pydantic", "Docker", "GitHub Actions", "Allure", "PostgreSQL"]
+      }
+    ]
+  },
+  "achievements": {
+    "heading": "Temel Başarılar",
+    "subtitle": "Her ekipte ölçülebilir etki.",
+    "items": [
+      {
+        "metric": "60%",
+        "title": "Manuel QA Azaltma",
+        "description": "360rent.club'da regresyon testini otomatikleştirerek manuel çabanın %60'ını ortadan kaldırdı"
+      },
+      {
+        "metric": "70%",
+        "title": "Daha Hızlı Olay Yanıtı",
+        "description": "Truely.com'da Datadog + Slack izleme oluşturarak yanıt süresini saatlerden dakikalara indirdi"
+      },
+      {
+        "metric": "40%",
+        "title": "Genişletilmiş Test Kapsamı",
+        "description": "BetaTransfer'de gRPC protokol desteği entegre ederek daha önce test edilemeyen etkileşimleri kapsadı"
+      },
+      {
+        "metric": "3x",
+        "title": "Daha Hızlı Test Yürütme",
+        "description": "360rent.club'da paralel test çalıştırma uygulayarak CI/CD pipeline süresini 3 kat kısalttı"
+      },
+      {
+        "metric": "5",
+        "title": "CMS Uygulaması",
+        "description": "Truely.com'da AI çeviri entegrasyonları dahil 5 Directus CMS uygulaması geliştirdi"
+      },
+      {
+        "metric": "0",
+        "title": "Geçiş Sonrası Teknik Borç",
+        "description": "Truely.com'da Selenium → Playwright geçişini kapsam kaybı olmadan yönetti"
+      }
+    ]
+  },
+  "cases": {
+    "heading": "Vaka Çalışmaları",
+    "subtitle": "Çözdüğüm gerçek mühendislik zorlukları.",
+    "items": [
+      {
+        "title": "Backend Yeniden Yazımı Sırasında E2E Test Geçişi",
+        "company": "Truely.com",
+        "problem": "Şirket Python'dan Elixir'e (Phoenix) geçiş yapıyordu. Tüm mevcut Selenium E2E testlerinin kapsam kaybı olmadan yeni yığın için yeniden yazılması gerekiyordu.",
+        "solution": "Playwright'a geçişi yönetti, backend'ler arası veri tutarlılığını doğrulamak için API karşılaştırma araçları oluşturdu ve aşamalı geçiş stratejisi tasarladı.",
+        "result": "Geçiş sonrası sıfır teknik borç. Yeni Elixir backend için tam E2E ve API kapsamı. Production'da regresyon olmadan sorunsuz geçiş."
+      },
+      {
+        "title": "Sıfırdan Test Altyapısı Oluşturma",
+        "company": "Djangoheads",
+        "problem": "Veri dönüştürme servisinde otomatik test yoktu. Manuel test yavaştı ve sürüm döngülerine ayak uyduramıyordu.",
+        "solution": "Pytest, Requests ve Pydantic kullanarak eksiksiz bir Python test framework'ü tasarladı ve oluşturdu. Docker ile konteynerleştirdi ve GitHub Actions CI/CD'ye entegre etti.",
+        "result": "Tamamen otomatik API test pipeline'ı. Pydantic doğrulama, veri sözleşmesi ihlallerini erken yakaladı. Sürüm döngüsü günlerden saatlere düştü."
+      },
+      {
+        "title": "Ölçekte Async Mikroservis Testi",
+        "company": "BetaTransfer",
+        "problem": "RabbitMQ kuyrukları ve birden fazla mikroservis ile karmaşık async iş akışları, uçtan uca veri akışının manuel doğrulanmasını imkansız kılıyordu.",
+        "solution": "Mesaj kuyrukları, worker'lar ve PostgreSQL üzerinden veri izleyen otomatik testler oluşturdu. Servisler arası doğrulama için test framework'üne gRPC desteği ekledi.",
+        "result": "Test kapsamında %40 artış. Async hatalar dağıtımdan önce yakalanıyor. Tam izlenebilirlik ile Allure raporları hata ayıklama süresini %50 azalttı."
+      }
+    ]
+  },
+  "hobbies": {
+    "heading": "Kodun Ötesinde",
+    "subtitle": "Mühendislik düşüncesi yazılımın ötesine uzanır.",
+    "items": [
+      {
+        "title": "3D Baskı",
+        "description": "Prototiplerden bitmiş ürünlere fonksiyonel parçalar tasarlama ve basma. Hassas mühendislik, yinelemeli iyileştirme ve somut sonuçlarla problem çözme.",
+        "icon": "printer"
+      },
+      {
+        "title": "Sürekli Öğrenme",
+        "description": "Her zaman yeni teknolojileri, framework'leri ve test metodolojilerini keşfediyorum. Şu anda performans testi ve kaos mühendisliğine derinleşiyorum.",
+        "icon": "book"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Birlikte Çalışalım",
+    "subtitle": "Dünya çapında uzaktan fırsatlara açığım. Ekibinizin daha iyi yazılımı daha hızlı göndermesine nasıl yardımcı olabileceğimi konuşalım.",
+    "email": "E-posta",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "location": "Konum",
+    "location_value": "Türkiye (Dünya Çapında Uzaktan)",
+    "copied": "Kopyalandı!",
+    "copy": "Kopyala"
+  },
+  "footer": {
+    "built": "Hassasiyetle yapıldı.",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

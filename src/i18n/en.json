@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "about": "About",
+    "stack": "Tech Stack",
+    "experience": "Experience",
+    "achievements": "Achievements",
+    "cases": "Case Studies",
+    "hobbies": "Hobbies",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for Hire",
+    "name": "Alexander Kotov",
+    "title": "Senior QA Automation Engineer / SDET",
+    "subtitle": "Python",
+    "tagline": "Building bulletproof software through intelligent test automation. 6+ years turning complex systems into reliable, well-tested products.",
+    "cta_experience": "View Experience",
+    "cta_contact": "Contact Me",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "heading": "About Me",
+    "p1": "I'm a Senior QA Automation Engineer with 6+ years of experience designing and implementing comprehensive test automation strategies for complex distributed systems.",
+    "p2": "I specialize in microservices architecture testing, API automation, and building CI/CD pipelines that catch bugs before they reach production. My work spans REST, gRPC, GraphQL, and asynchronous messaging systems.",
+    "p3": "I don't just write tests — I architect testing ecosystems that scale with your product. From building frameworks from scratch to migrating legacy systems, I deliver measurable improvements in code quality and team velocity.",
+    "highlights": {
+      "years": "6+",
+      "years_label": "Years Experience",
+      "frameworks": "3",
+      "frameworks_label": "Frameworks Built",
+      "reduction": "60%",
+      "reduction_label": "Manual QA Reduced",
+      "companies": "4",
+      "companies_label": "Companies"
+    }
+  },
+  "stack": {
+    "heading": "Tech Stack",
+    "subtitle": "Tools and technologies I use to build robust test automation systems.",
+    "categories": {
+      "languages": "Languages & Frameworks",
+      "testing": "Testing Tools",
+      "infrastructure": "Infrastructure & CI/CD",
+      "databases": "Databases & Messaging",
+      "monitoring": "Monitoring & Reporting"
+    }
+  },
+  "experience": {
+    "heading": "Experience",
+    "subtitle": "A track record of building and scaling test automation across international teams.",
+    "present": "Present",
+    "jobs": [
+      {
+        "company": "BetaTransfer",
+        "location": "Almaty, Kazakhstan",
+        "role": "QA Automation Engineer (Python)",
+        "period": "Mar 2025 — Present",
+        "description": "Microservices testing for a fintech platform",
+        "achievements": [
+          "Integrated gRPC support into the test framework, expanding service coverage by 40%",
+          "Automated async workflow testing across RabbitMQ queues, workers, and PostgreSQL",
+          "Built comprehensive data validation tests verifying entity relationships and state transitions",
+          "Implemented Allure reporting with detailed logs and attachments, reducing debugging time by 50%",
+          "Maintained Docker-based test environments ensuring consistent execution across local and CI/CD pipelines"
+        ],
+        "tech": ["Python", "Pytest", "gRPC", "RabbitMQ", "PostgreSQL", "Docker", "GitLab CI/CD", "Allure"]
+      },
+      {
+        "company": "Truely.com",
+        "location": "Singapore (Remote)",
+        "role": "QA Automation Engineer (Python)",
+        "period": "Jun 2022 — Feb 2025",
+        "description": "Full-stack test automation for a global eSIM platform",
+        "achievements": [
+          "Architected complete test automation system covering unit, API, and E2E tests for Python and Elixir backends",
+          "Led migration of E2E test suite from Selenium to Playwright during backend rewrite, achieving zero test debt",
+          "Built API response comparison tool validating data consistency between legacy and new backends",
+          "Developed 5 Directus CMS applications including AI-powered translation (OpenAI, DeepL, Microsoft)",
+          "Designed CI/CD pipelines from scratch in GitHub Actions for UI and API test automation",
+          "Created Datadog monitoring integration with Slack alerts, reducing incident response time by 70%",
+          "Built automated task creation in Linear for failed tests, improving team accountability"
+        ],
+        "tech": ["Python", "Elixir", "Playwright", "Pytest", "GraphQL", "Docker", "GitHub Actions", "Datadog", "BrowserStack"]
+      },
+      {
+        "company": "360rent.club",
+        "location": "Turkey",
+        "role": "QA Automation Engineer",
+        "period": "Mar 2020 — Apr 2022",
+        "description": "Test automation for a real estate rental platform",
+        "achievements": [
+          "Reduced manual regression testing by 60% through comprehensive UI test automation",
+          "Implemented parallel test execution, cutting test suite runtime by 3x",
+          "Optimized Selenium locators and wait strategies, reducing flaky test rate by 80%",
+          "Integrated test suite into Docker containers with GitHub Actions CI/CD"
+        ],
+        "tech": ["Python", "Pytest", "Selenium", "Docker", "GitHub Actions", "Allure", "Faker"]
+      },
+      {
+        "company": "Djangoheads",
+        "location": "Portugal (Remote)",
+        "role": "QA Automation Engineer (Python)",
+        "period": "Jun 2020 — Jan 2022",
+        "description": "Built test framework from scratch for data conversion service",
+        "achievements": [
+          "Designed and built a Python test framework from zero for a data conversion service (PDF, PNG, etc.)",
+          "Implemented API testing with Pydantic validation ensuring strict data contract compliance",
+          "Created scalable test architecture using Pytest with comprehensive Allure reporting",
+          "Containerized test environment with Docker, enabling consistent CI/CD execution"
+        ],
+        "tech": ["Python", "Pytest", "Requests", "Pydantic", "Docker", "GitHub Actions", "Allure", "PostgreSQL"]
+      }
+    ]
+  },
+  "achievements": {
+    "heading": "Key Achievements",
+    "subtitle": "Measurable impact across every team I've worked with.",
+    "items": [
+      {
+        "metric": "60%",
+        "title": "Manual QA Reduction",
+        "description": "Automated regression testing at 360rent.club, eliminating 60% of manual testing effort"
+      },
+      {
+        "metric": "70%",
+        "title": "Faster Incident Response",
+        "description": "Built Datadog + Slack monitoring at Truely.com, cutting response time from hours to minutes"
+      },
+      {
+        "metric": "40%",
+        "title": "Expanded Test Coverage",
+        "description": "Integrated gRPC protocol support at BetaTransfer, covering previously untestable service interactions"
+      },
+      {
+        "metric": "3x",
+        "title": "Faster Test Execution",
+        "description": "Implemented parallel test runs at 360rent.club, reducing CI/CD pipeline duration by 3x"
+      },
+      {
+        "metric": "5",
+        "title": "CMS Apps Delivered",
+        "description": "Built 5 Directus CMS applications at Truely.com, including AI translation integrations"
+      },
+      {
+        "metric": "0",
+        "title": "Test Debt After Migration",
+        "description": "Led Selenium → Playwright migration at Truely.com with zero test coverage loss"
+      }
+    ]
+  },
+  "cases": {
+    "heading": "Case Studies",
+    "subtitle": "Real engineering challenges I've solved.",
+    "items": [
+      {
+        "title": "Migrating E2E Tests During Backend Rewrite",
+        "company": "Truely.com",
+        "problem": "The company was migrating from Python to Elixir (Phoenix). All existing Selenium E2E tests needed to be rewritten for the new stack without losing coverage.",
+        "solution": "Led the migration to Playwright, built API comparison tools to validate data consistency between backends, and designed a phased rollout strategy.",
+        "result": "Zero test debt after migration. Full E2E and API coverage for the new Elixir backend. Smooth transition with no regression escapes to production."
+      },
+      {
+        "title": "Building Test Infrastructure from Zero",
+        "company": "Djangoheads",
+        "problem": "A data conversion service had no automated testing. Manual testing was slow, unreliable, and couldn't keep up with release cycles.",
+        "solution": "Designed and built a complete Python test framework using Pytest, Requests, and Pydantic. Containerized with Docker and integrated into GitHub Actions CI/CD.",
+        "result": "Fully automated API testing pipeline. Pydantic validation caught data contract violations early. Reduced release cycle from days to hours."
+      },
+      {
+        "title": "Async Microservice Testing at Scale",
+        "company": "BetaTransfer",
+        "problem": "Complex async workflows with RabbitMQ queues and multiple microservices made it impossible to verify end-to-end data flow manually.",
+        "solution": "Built automated tests that trace data through message queues, workers, and PostgreSQL. Added gRPC support to the test framework for inter-service validation.",
+        "result": "40% increase in test coverage. Async bugs caught before deployment. Allure reports with full traceability reduced debugging time by 50%."
+      }
+    ]
+  },
+  "hobbies": {
+    "heading": "Beyond Code",
+    "subtitle": "Engineering mindset extends beyond software.",
+    "items": [
+      {
+        "title": "3D Printing",
+        "description": "Designing and printing functional parts — from prototypes to finished products. It's about precision engineering, iterative improvement, and problem-solving with tangible results.",
+        "icon": "printer"
+      },
+      {
+        "title": "Continuous Learning",
+        "description": "Always exploring new technologies, frameworks, and testing methodologies. Currently diving deeper into performance testing and chaos engineering.",
+        "icon": "book"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Work Together",
+    "subtitle": "I'm open to remote opportunities worldwide. Let's discuss how I can help your team ship better software, faster.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "location": "Location",
+    "location_value": "Turkey (Remote Worldwide)",
+    "copied": "Copied!",
+    "copy": "Copy"
+  },
+  "footer": {
+    "built": "Built with precision.",
+    "rights": "All rights reserved."
+  }
+}
