@@ -16,7 +16,11 @@
     "tagline": "Building bulletproof software through intelligent test automation. 6+ years turning complex systems into reliable, well-tested products.",
     "cta_experience": "View Experience",
     "cta_contact": "Contact Me",
-    "cta_cv": "Download CV"
+    "cta_cv": "Download CV",
+    "photo_alt": "Portrait of Alexander Kotov",
+    "photo_badge": "Remote Worldwide",
+    "photo_note": "QA automation with strong product engineering discipline.",
+    "photo_fallback": "Add your portrait and this block will automatically display it here."
   },
   "about": {
     "heading": "About Me",
@@ -30,7 +34,7 @@
       "frameworks_label": "Frameworks Built",
       "reduction": "60%",
       "reduction_label": "Manual QA Reduced",
-      "companies": "4",
+      "companies": "3",
       "companies_label": "Companies"
     }
   },
@@ -81,20 +85,6 @@
           "Built automated task creation in Linear for failed tests, improving team accountability"
         ],
         "tech": ["Python", "Elixir", "Playwright", "Pytest", "GraphQL", "Docker", "GitHub Actions", "Datadog", "BrowserStack"]
-      },
-      {
-        "company": "360rent.club",
-        "location": "Turkey",
-        "role": "QA Automation Engineer",
-        "period": "Mar 2020 — Apr 2022",
-        "description": "Test automation for a real estate rental platform",
-        "achievements": [
-          "Reduced manual regression testing by 60% through comprehensive UI test automation",
-          "Implemented parallel test execution, cutting test suite runtime by 3x",
-          "Optimized Selenium locators and wait strategies, reducing flaky test rate by 80%",
-          "Integrated test suite into Docker containers with GitHub Actions CI/CD"
-        ],
-        "tech": ["Python", "Pytest", "Selenium", "Docker", "GitHub Actions", "Allure", "Faker"]
       },
       {
         "company": "Djangoheads",

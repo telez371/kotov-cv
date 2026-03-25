@@ -1,3 +1,20 @@
-# Welcome to your Lovable project
+# Alexander Kotov Portfolio
 
-TODO: Document your project here
+## Local development
+
+```bash
+npm ci
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+Deployment guide:
+
+[DEPLOY.md](/Users/kotoff/aleks-kotov/DEPLOY.md)

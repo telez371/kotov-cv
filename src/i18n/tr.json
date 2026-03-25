@@ -16,7 +16,11 @@
     "tagline": "Akıllı test otomasyonu ile sağlam yazılımlar inşa ediyorum. 6+ yıl boyunca karmaşık sistemleri güvenilir, test edilmiş ürünlere dönüştürüyorum.",
     "cta_experience": "Deneyimi Gör",
     "cta_contact": "İletişim",
-    "cta_cv": "CV İndir"
+    "cta_cv": "CV İndir",
+    "photo_alt": "Alexander Kotov portresi",
+    "photo_badge": "Dunya Capinda Uzaktan",
+    "photo_note": "Guclu urun muhendisligi disiplini ile QA otomasyonu.",
+    "photo_fallback": "Portre fotografinizi eklediginizde bu alan onu otomatik olarak gosterecek."
   },
   "about": {
     "heading": "Hakkımda",
@@ -30,7 +34,7 @@
       "frameworks_label": "Framework Oluşturuldu",
       "reduction": "60%",
       "reduction_label": "Manuel QA Azaltıldı",
-      "companies": "4",
+      "companies": "3",
       "companies_label": "Şirket"
     }
   },
@@ -81,20 +85,6 @@
           "Başarısız testler için Linear'da otomatik görev oluşturma geliştirdi"
         ],
         "tech": ["Python", "Elixir", "Playwright", "Pytest", "GraphQL", "Docker", "GitHub Actions", "Datadog", "BrowserStack"]
-      },
-      {
-        "company": "360rent.club",
-        "location": "Türkiye",
-        "role": "QA Automation Engineer",
-        "period": "Mart 2020 — Nis 2022",
-        "description": "Gayrimenkul kiralama platformu için test otomasyonu",
-        "achievements": [
-          "Kapsamlı UI test otomasyonu ile manuel regresyon testini %60 azalttı",
-          "Paralel test yürütme uygulayarak test paketi çalışma süresini 3 kat kısalttı",
-          "Selenium locator'larını optimize ederek hatalı test oranını %80 düşürdü",
-          "Test paketini Docker container'larına GitHub Actions CI/CD ile entegre etti"
-        ],
-        "tech": ["Python", "Pytest", "Selenium", "Docker", "GitHub Actions", "Allure", "Faker"]
       },
       {
         "company": "Djangoheads",

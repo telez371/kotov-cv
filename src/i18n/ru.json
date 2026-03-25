@@ -16,7 +16,11 @@
     "tagline": "Создаю надёжное ПО через интеллектуальную автоматизацию тестирования. 6+ лет превращаю сложные системы в стабильные, протестированные продукты.",
     "cta_experience": "Смотреть опыт",
     "cta_contact": "Связаться",
-    "cta_cv": "Скачать CV"
+    "cta_cv": "Скачать CV",
+    "photo_alt": "Портрет Александра Котова",
+    "photo_badge": "Удалённо по миру",
+    "photo_note": "QA automation с инженерной дисциплиной продукта.",
+    "photo_fallback": "Добавьте личную фотографию, и этот блок автоматически покажет её здесь."
   },
   "about": {
     "heading": "Обо мне",
@@ -30,7 +34,7 @@
       "frameworks_label": "Фреймворка создано",
       "reduction": "60%",
       "reduction_label": "Сокращение ручного QA",
-      "companies": "4",
+      "companies": "3",
       "companies_label": "Компании"
     }
   },
@@ -81,20 +85,6 @@
           "Автоматизировал создание задач в Linear при падении тестов"
         ],
         "tech": ["Python", "Elixir", "Playwright", "Pytest", "GraphQL", "Docker", "GitHub Actions", "Datadog", "BrowserStack"]
-      },
-      {
-        "company": "360rent.club",
-        "location": "Турция",
-        "role": "QA Automation Engineer",
-        "period": "Март 2020 — Апрель 2022",
-        "description": "Автоматизация тестирования платформы аренды недвижимости",
-        "achievements": [
-          "Сократил ручное регрессионное тестирование на 60% через комплексную UI-автоматизацию",
-          "Внедрил параллельный запуск тестов, ускорив выполнение тестового набора в 3 раза",
-          "Оптимизировал локаторы Selenium, снизив количество ложных срабатываний на 80%",
-          "Интегрировал тесты в Docker-контейнеры с CI/CD через GitHub Actions"
-        ],
-        "tech": ["Python", "Pytest", "Selenium", "Docker", "GitHub Actions", "Allure", "Faker"]
       },
       {
         "company": "Djangoheads",
