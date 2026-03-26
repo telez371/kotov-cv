@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Mentorship from '@/components/Mentorship';
 import TechStack from '@/components/TechStack';
 import Experience from '@/components/Experience';
 import Achievements from '@/components/Achievements';
@@ -15,6 +16,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <About />
+      <Mentorship />
       <TechStack />
       <Experience />
       <Achievements />

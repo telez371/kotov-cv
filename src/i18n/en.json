@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "About",
+    "mentorship": "Mentorship",
     "stack": "Tech Stack",
     "experience": "Experience",
     "achievements": "Achievements",
@@ -37,6 +38,30 @@
       "companies": "3",
       "companies_label": "Companies"
     }
+  },
+  "mentorship": {
+    "heading": "Mentorship",
+    "subtitle": "I help students grow into QA and Python with practical guidance instead of empty promises.",
+    "badge": "Free for my students",
+    "title": "I mentor people in QA and Python to move them from basics into real-world practice.",
+    "description": "I mentor my students for free, helping them build strong QA fundamentals, learn Python for automation, work through their first practical tasks, and stay grounded between theory, interviews, and real project work.",
+    "points": [
+      {
+        "title": "Strong foundation",
+        "description": "I explain QA processes, testing mindset, Python basics, and what the path into automation really looks like in practice.",
+        "icon": "foundation"
+      },
+      {
+        "title": "Practice and review",
+        "description": "I help with exercises, homework, code review, and error analysis so knowledge turns into repeatable hands-on skill.",
+        "icon": "practice"
+      },
+      {
+        "title": "Support along the way",
+        "description": "I give direct feedback, help students stay consistent, and turn effort into skills they can confidently show to employers.",
+        "icon": "support"
+      }
+    ]
   },
   "stack": {
     "heading": "Tech Stack",
@@ -170,14 +195,19 @@
     "subtitle": "Engineering mindset extends beyond software.",
     "items": [
       {
-        "title": "3D Printing",
-        "description": "Designing and printing functional parts — from prototypes to finished products. It's about precision engineering, iterative improvement, and problem-solving with tangible results.",
-        "icon": "printer"
+        "title": "3D Printing and Modeling",
+        "description": "I design and model parts, then turn them into finished objects through 3D printing. I enjoy taking an idea all the way into a tangible working result.",
+        "icon": "craft"
       },
       {
-        "title": "Continuous Learning",
-        "description": "Always exploring new technologies, frameworks, and testing methodologies. Currently diving deeper into performance testing and chaos engineering.",
-        "icon": "book"
+        "title": "Games",
+        "description": "I enjoy games that reward tactics, fast reactions, and resilience: DayZ, Rust, Dota 2, and Diablo. For me, they are another way to sharpen systems thinking and decision-making.",
+        "icon": "games"
+      },
+      {
+        "title": "Sport",
+        "description": "Pilates, pull-up bar training, and hiking help me stay clear-headed and physically grounded. That routine supports discipline, endurance, and recovery.",
+        "icon": "sport"
       }
     ]
   },

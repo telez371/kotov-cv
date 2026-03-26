@@ -1,10 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Printer, BookOpen } from 'lucide-react';
+import { Dumbbell, Gamepad2, PenTool } from 'lucide-react';
 
 const iconMap: Record<string, React.ReactNode> = {
-  printer: <Printer className="w-6 h-6" />,
-  book: <BookOpen className="w-6 h-6" />,
+  games: <Gamepad2 className="w-6 h-6" />,
+  craft: <PenTool className="w-6 h-6" />,
+  sport: <Dumbbell className="w-6 h-6" />,
 };
 
 const Hobbies = () => {
@@ -28,7 +29,7 @@ const Hobbies = () => {
           <p className="section-subtitle mb-12">{t('hobbies.subtitle')}</p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-3xl">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {items.map((item, i) => (
             <motion.div
               key={i}

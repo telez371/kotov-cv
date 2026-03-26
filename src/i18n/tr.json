@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Hakkımda",
+    "mentorship": "Mentorluk",
     "stack": "Teknoloji",
     "experience": "Deneyim",
     "achievements": "Başarılar",
@@ -37,6 +38,30 @@
       "companies": "3",
       "companies_label": "Şirket"
     }
+  },
+  "mentorship": {
+    "heading": "Mentorluk",
+    "subtitle": "Ogrencilerime QA ve Python alaninda gereksiz teori yerine gercek pratikle ilerlemeleri icin destek oluyorum.",
+    "badge": "Ogrencilerim icin ucretsiz",
+    "title": "QA ve Python mentorlugu yapiyor, insanlari temelden gercek pratige tasiyorum.",
+    "description": "Ogrencilerime ucretsiz mentorluk veriyorum; QA temellerini kurmalarina, otomasyon icin Python ogrenmelerine, ilk pratik gorevlerini cozmelerine ve teori ile gercek proje deneyimi arasinda kaybolmamalarina yardimci oluyorum.",
+    "points": [
+      {
+        "title": "Saglam temel",
+        "description": "QA sureclerini, testci dusuncesini, Python temelini ve otomasyona gecis yolunun pratikte nasil gorundugunu anlatiyorum.",
+        "icon": "foundation"
+      },
+      {
+        "title": "Pratik ve inceleme",
+        "description": "Odevlerde, alistirmalarda, code review surecinde ve hata analizinde destek olarak bilginin gercek beceriye donusmesini sagliyorum.",
+        "icon": "practice"
+      },
+      {
+        "title": "Surekli destek",
+        "description": "Net geri bildirim veriyor, ogrencilerin istikrarini korumasina yardimci oluyor ve emegi isverenlere gosterilebilecek seviyeye tasiyorum.",
+        "icon": "support"
+      }
+    ]
   },
   "stack": {
     "heading": "Teknoloji Yığını",
@@ -170,14 +195,19 @@
     "subtitle": "Mühendislik düşüncesi yazılımın ötesine uzanır.",
     "items": [
       {
-        "title": "3D Baskı",
-        "description": "Prototiplerden bitmiş ürünlere fonksiyonel parçalar tasarlama ve basma. Hassas mühendislik, yinelemeli iyileştirme ve somut sonuçlarla problem çözme.",
-        "icon": "printer"
+        "title": "3D Baski ve Modelleme",
+        "description": "Parcalari tasarlayip modelliyor, sonra 3D baski ile gercek urunlere donusturuyorum. Bir fikri calisan fiziksel sonuca cevirmekten keyif aliyorum.",
+        "icon": "craft"
       },
       {
-        "title": "Sürekli Öğrenme",
-        "description": "Her zaman yeni teknolojileri, framework'leri ve test metodolojilerini keşfediyorum. Şu anda performans testi ve kaos mühendisliğine derinleşiyorum.",
-        "icon": "book"
+        "title": "Oyunlar",
+        "description": "Taktik, hizli reaksiyon ve dayaniklilik isteyen oyunlari seviyorum: DayZ, Rust, Dota 2 ve Diablo. Benim icin bu, sistem dusuncesini ve hizli karar almayi gelistirmenin bir yolu.",
+        "icon": "games"
+      },
+      {
+        "title": "Spor",
+        "description": "Pilates, barfiks ve hiking bana hem zihinsel netlik hem de fiziksel denge sagliyor. Bu rutin disiplin, dayaniklilik ve toparlanmayi destekliyor.",
+        "icon": "sport"
       }
     ]
   },

@@ -9,7 +9,7 @@ const languages = [
   { code: 'tr', label: 'TR' },
 ];
 
-const navKeys = ['about', 'stack', 'experience', 'achievements', 'cases', 'hobbies', 'contact'] as const;
+const navKeys = ['about', 'mentorship', 'stack', 'experience', 'achievements', 'cases', 'hobbies', 'contact'] as const;
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
