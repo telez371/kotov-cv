@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Mail, MessageCircle, Send, MapPin, Copy, Check } from 'lucide-react';
 
 const contactItems = [
-  { key: 'email', value: 'kotov-iii@mail.ru', href: 'mailto:kotov-iii@mail.ru', icon: Mail },
+  { key: 'email', value: 'qalekskotov@gmail.com', href: 'mailto:qalekskotov@gmail.com', icon: Mail },
   { key: 'whatsapp', value: '+90 531 315 1735', href: 'https://wa.me/905313151735', icon: MessageCircle },
   { key: 'telegram', value: '@Kotoff371', href: 'https://t.me/Kotoff371', icon: Send },
 ];
