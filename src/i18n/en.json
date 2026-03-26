@@ -41,10 +41,10 @@
   },
   "mentorship": {
     "heading": "Mentorship",
-    "subtitle": "I help students grow into QA and Python with practical guidance instead of empty promises.",
-    "badge": "Free for my students",
-    "title": "I mentor people in QA and Python to move them from basics into real-world practice.",
-    "description": "I mentor my students for free, helping them build strong QA fundamentals, learn Python for automation, work through their first practical tasks, and stay grounded between theory, interviews, and real project work.",
+    "subtitle": "I support junior specialists in QA and Python on a volunteer basis when I see real commitment and a strong willingness to grow.",
+    "badge": "Guidance and support",
+    "title": "I help people move from fundamentals into real practice without empty promises or hype.",
+    "description": "From time to time, I take on a mentorship role: helping people build strong QA fundamentals, learn Python for automation, structure their practice, and stay grounded between theory, interviews, and real project work.",
     "points": [
       {
         "title": "Strong foundation",

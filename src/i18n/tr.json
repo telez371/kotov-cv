@@ -41,10 +41,10 @@
   },
   "mentorship": {
     "heading": "Mentorluk",
-    "subtitle": "Ogrencilerime QA ve Python alaninda gereksiz teori yerine gercek pratikle ilerlemeleri icin destek oluyorum.",
-    "badge": "Ogrencilerim icin ucretsiz",
-    "title": "QA ve Python mentorlugu yapiyor, insanlari temelden gercek pratige tasiyorum.",
-    "description": "Ogrencilerime ucretsiz mentorluk veriyorum; QA temellerini kurmalarina, otomasyon icin Python ogrenmelerine, ilk pratik gorevlerini cozmelerine ve teori ile gercek proje deneyimi arasinda kaybolmamalarina yardimci oluyorum.",
+    "subtitle": "Gercek motivasyon ve gelisme istegi gordugumde, QA ve Python alaninda yeni baslayanlara gonullu olarak destek oluyorum.",
+    "badge": "Yonlendirme ve destek",
+    "title": "Insanlari temelden gercek pratige, gereksiz vaatler olmadan tasimaya yardimci oluyorum.",
+    "description": "Zaman zaman mentorluk rolu ustleniyorum; QA temelini kurmaya, otomasyon icin Python ogrenmeye, pratigi duzenlemeye ve teori ile gercek proje deneyimi arasinda kaybolmamaya yardimci oluyorum.",
     "points": [
       {
         "title": "Saglam temel",
