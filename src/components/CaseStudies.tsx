@@ -44,7 +44,7 @@ const CaseStudies = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <span className="w-6 h-6 rounded-full bg-destructive/10 flex items-center justify-center text-destructive text-xs font-bold">!</span>
-                    <span className="text-sm font-medium text-foreground">Problem</span>
+                    <span className="text-sm font-medium text-foreground">{t('cases.problem_label')}</span>
                   </div>
                   <p className="text-sm text-muted-foreground leading-relaxed">{item.problem}</p>
                 </div>
@@ -52,7 +52,7 @@ const CaseStudies = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <ArrowRight className="w-4 h-4 text-primary" />
-                    <span className="text-sm font-medium text-foreground">Solution</span>
+                    <span className="text-sm font-medium text-foreground">{t('cases.solution_label')}</span>
                   </div>
                   <p className="text-sm text-muted-foreground leading-relaxed">{item.solution}</p>
                 </div>
@@ -60,7 +60,7 @@ const CaseStudies = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xs font-bold">✓</span>
-                    <span className="text-sm font-medium text-foreground">Result</span>
+                    <span className="text-sm font-medium text-foreground">{t('cases.result_label')}</span>
                   </div>
                   <p className="text-sm text-muted-foreground leading-relaxed">{item.result}</p>
                 </div>

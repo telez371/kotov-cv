@@ -2,12 +2,18 @@
   "nav": {
     "about": "Hakkımda",
     "mentorship": "Mentorluk",
-    "stack": "Teknoloji",
+    "stack": "Teknoloji Yığını",
     "experience": "Deneyim",
     "achievements": "Başarılar",
     "cases": "Vaka Çalışmaları",
     "hobbies": "Hobiler",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "skip_to_content": "Icerige gec",
+    "change_language": "Dili degistir",
+    "switch_to_light": "Acik temaya gec",
+    "switch_to_dark": "Koyu temaya gec",
+    "open_menu": "Menüyü ac",
+    "close_menu": "Menüyü kapat"
   },
   "hero": {
     "badge": "İşe Açık",
@@ -132,9 +138,9 @@
     "subtitle": "Her ekipte ölçülebilir etki.",
     "items": [
       {
-        "metric": "60%",
-        "title": "Manuel QA Azaltma",
-        "description": "360rent.club'da regresyon testini otomatikleştirerek manuel çabanın %60'ını ortadan kaldırdı"
+        "metric": "50%",
+        "title": "Daha Hizli Hata Ayiklama",
+        "description": "BetaTransfer'de detayli loglarla Allure raporlama kurarak hata tespiti ve analiz suresini %50 kisaltti"
       },
       {
         "metric": "70%",
@@ -147,9 +153,9 @@
         "description": "BetaTransfer'de gRPC protokol desteği entegre ederek daha önce test edilemeyen etkileşimleri kapsadı"
       },
       {
-        "metric": "3x",
-        "title": "Daha Hızlı Test Yürütme",
-        "description": "360rent.club'da paralel test çalıştırma uygulayarak CI/CD pipeline süresini 3 kat kısalttı"
+        "metric": "3",
+        "title": "Framework ve Sistem",
+        "description": "Farkli ekiplerde birden fazla test framework'u ve otomasyon sistemi tasarlayip gelistirdi; ilk kurulumdan stabil CI/CD kullanimina kadar sureci yonetti"
       },
       {
         "metric": "5",
@@ -166,6 +172,9 @@
   "cases": {
     "heading": "Vaka Çalışmaları",
     "subtitle": "Çözdüğüm gerçek mühendislik zorlukları.",
+    "problem_label": "Problem",
+    "solution_label": "Cozum",
+    "result_label": "Sonuc",
     "items": [
       {
         "title": "Backend Yeniden Yazımı Sırasında E2E Test Geçişi",

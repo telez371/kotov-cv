@@ -56,6 +56,7 @@ const Contact = () => {
                 onClick={() => copyToClipboard(item.value, item.key)}
                 className="p-2 text-muted-foreground hover:text-foreground transition-colors shrink-0"
                 title={t('contact.copy')}
+                aria-label={`${t('contact.copy')} ${t(`contact.${item.key}`)}`}
               >
                 {copied === item.key ? <Check className="w-4 h-4 text-primary" /> : <Copy className="w-4 h-4" />}
               </button>

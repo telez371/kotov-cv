@@ -7,7 +7,13 @@
     "achievements": "Achievements",
     "cases": "Case Studies",
     "hobbies": "Hobbies",
-    "contact": "Contact"
+    "contact": "Contact",
+    "skip_to_content": "Skip to content",
+    "change_language": "Change language",
+    "switch_to_light": "Switch to light theme",
+    "switch_to_dark": "Switch to dark theme",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
   },
   "hero": {
     "badge": "Available for Hire",
@@ -132,9 +138,9 @@
     "subtitle": "Measurable impact across every team I've worked with.",
     "items": [
       {
-        "metric": "60%",
-        "title": "Manual QA Reduction",
-        "description": "Automated regression testing at 360rent.club, eliminating 60% of manual testing effort"
+        "metric": "50%",
+        "title": "Faster Debugging",
+        "description": "Implemented Allure reporting with detailed logs at BetaTransfer, reducing diagnosis and failure analysis time by 50%"
       },
       {
         "metric": "70%",
@@ -147,9 +153,9 @@
         "description": "Integrated gRPC protocol support at BetaTransfer, covering previously untestable service interactions"
       },
       {
-        "metric": "3x",
-        "title": "Faster Test Execution",
-        "description": "Implemented parallel test runs at 360rent.club, reducing CI/CD pipeline duration by 3x"
+        "metric": "3",
+        "title": "Frameworks and Systems",
+        "description": "Designed and evolved multiple test frameworks and automation systems across teams, from initial setup to stable CI/CD usage"
       },
       {
         "metric": "5",
@@ -166,6 +172,9 @@
   "cases": {
     "heading": "Case Studies",
     "subtitle": "Real engineering challenges I've solved.",
+    "problem_label": "Problem",
+    "solution_label": "Solution",
+    "result_label": "Result",
     "items": [
       {
         "title": "Migrating E2E Tests During Backend Rewrite",

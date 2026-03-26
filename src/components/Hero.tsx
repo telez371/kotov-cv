@@ -36,7 +36,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="mb-4 text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl"
+              className="mb-4 max-w-[11ch] text-[2.85rem] font-bold leading-[1.05] tracking-tight min-[375px]:text-5xl sm:text-6xl lg:text-7xl"
             >
               {t('hero.name')}
             </motion.h1>
@@ -73,6 +73,7 @@ const Hero = () => {
               <button
                 onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
                 className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+                aria-label={t('hero.cta_experience')}
               >
                 <ArrowDown className="h-4 w-4" />
                 {t('hero.cta_experience')}
@@ -80,6 +81,7 @@ const Hero = () => {
               <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+                aria-label={t('hero.cta_contact')}
               >
                 <Mail className="h-4 w-4" />
                 {t('hero.cta_contact')}
@@ -87,6 +89,7 @@ const Hero = () => {
               <a
                 href="/Alexander_Kotov_CV.pdf"
                 download
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
               >
                 <Download className="h-4 w-4" />
@@ -107,6 +110,10 @@ const Hero = () => {
                   src="/profile-photo.jpg"
                   alt={t('hero.photo_alt')}
                   className="h-full w-full object-cover"
+                  width={1100}
+                  height={733}
+                  loading="eager"
+                  fetchPriority="high"
                   onError={() => setImageError(true)}
                 />
               ) : (

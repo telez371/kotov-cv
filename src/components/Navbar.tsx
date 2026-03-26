@@ -71,6 +71,9 @@ const Navbar = () => {
             <button
               onClick={() => setLangOpen(!langOpen)}
               className="flex items-center gap-1 px-2 py-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors rounded-md"
+              aria-label={t('nav.change_language')}
+              aria-haspopup="menu"
+              aria-expanded={langOpen}
             >
               <Globe className="w-4 h-4" />
               {languages.find(l => l.code === i18n.language)?.label || 'EN'}
@@ -103,13 +106,18 @@ const Navbar = () => {
           <button
             onClick={() => setIsDark(!isDark)}
             className="p-2 text-muted-foreground hover:text-foreground transition-colors rounded-md"
+            aria-label={isDark ? t('nav.switch_to_light') : t('nav.switch_to_dark')}
           >
             {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
         </div>
 
         {/* Mobile toggle */}
-        <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-2 text-foreground">
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="md:hidden p-2 text-foreground"
+          aria-label={mobileOpen ? t('nav.close_menu') : t('nav.open_menu')}
+        >
           {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
         </button>
       </div>
@@ -150,6 +158,7 @@ const Navbar = () => {
                 <button
                   onClick={() => setIsDark(!isDark)}
                   className="p-2 text-muted-foreground hover:text-foreground transition-colors"
+                  aria-label={isDark ? t('nav.switch_to_light') : t('nav.switch_to_dark')}
                 >
                   {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
                 </button>
