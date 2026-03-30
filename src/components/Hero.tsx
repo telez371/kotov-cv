@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="section-container w-full">
         <div className="grid items-center gap-14 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.9fr)]">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl lg:max-w-none">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -102,7 +102,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mx-auto w-full max-w-[400px]"
+            className="relative mx-auto w-full max-w-[400px]"
           >
             <div className="aspect-[4/5] overflow-hidden rounded-[2rem] bg-white shadow-[0_28px_64px_-36px_rgba(15,23,42,0.35)]">
               {!imageError ? (
